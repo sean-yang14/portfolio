@@ -8,7 +8,7 @@ function Footer() {
 	return (
 		<footer className='footer footer-center p-10 bg-primary text-primary-content border-2'>
 			<div className='text-center'>
-				<FaRocket className='text-6xl mx-auto lg:text-7xl' />
+				<FaRocket className='text-5xl mx-auto lg:text-7xl' />
 				<p className='font-bold my-4 lg:text-xl lg:my-6'>Made by Me © 2022</p>
 			</div>
 			<div>
