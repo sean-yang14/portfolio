@@ -1,10 +1,9 @@
 import React from 'react';
-import { GiRabbitHead } from 'react-icons/gi';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
 	return (
-		<nav className='navbar bg-base-100 container mx-auto'>
+		<nav className='navbar h-[5vh] bg-base-100 container mx-auto border-b-2 border-gray-300'>
 			<div className='navbar-start'>
 				<div className='dropdown'>
 					<label tabIndex={0} className='btn btn-ghost lg:hidden'>
@@ -25,7 +24,7 @@ function Navbar() {
 					</label>
 					<ul
 						tabIndex={0}
-						className='menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52'
+						className='menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 w-52'
 					>
 						<li>
 							<Link to='/' className='text-lg'>
@@ -34,43 +33,58 @@ function Navbar() {
 						</li>
 						<li>
 							<Link to='/' className='text-lg'>
-								Resume
+								Projects
 							</Link>
 						</li>
 						<li>
 							<Link to='/' className='text-lg'>
-								Say Hello
+								About
 							</Link>
 						</li>
 					</ul>
 				</div>
-				<Link to='/' className='btn btn-ghost btn-md normal-case text-2xl'>
-					Sean Yang
+				<Link
+					to='/'
+					className='btn btn-ghost btn-md normal-case text-3xl font-bold'
+				>
+					<div className='flex items-baseline'>
+						Sean{' '}
+						<span className='text-5xl text-orange-500 leading-[0] pl-1'>.</span>
+					</div>
 				</Link>
 			</div>
 
-			<div className='navbar justify-end hidden lg:flex'>
-				<ul className='menu menu-horizontal p-0'>
+			<div className='navbar-center hidden lg:flex'>
+				<ul className='menu menu-horizontal px-1'>
 					<li className='mr-2'>
-						<Link to='/' className='btn btn-ghost rounded-md'>
+						<Link
+							to='/'
+							className='btn btn-ghost rounded-md text-lg font-normal'
+						>
 							Home
 						</Link>
 					</li>
 					<li className='mr-2'>
-						<Link to='/' className='btn btn-ghost'>
-							Say Hello
+						<Link to='/' className='btn btn-ghost text-lg font-normal'>
+							Projects
 						</Link>
 					</li>
 					<li>
-						<Link to='/' className='btn btn-primary rounded-md text-white'>
-							Resume
+						<Link
+							to='/'
+							className='btn btn-ghost rounded-md text-lg font-normal'
+						>
+							About
 						</Link>
 					</li>
 				</ul>
 			</div>
 
-			<div className='navbar-end lg:hidden'>
-				<Link to='/' className='btn btn-primary rounded-md'>
+			<div className='navbar-end'>
+				<Link
+					to='/'
+					className='btn btn-ghost border-[1.5px] border-black rounded-md text-lg font-normal'
+				>
 					Resume
 				</Link>
 			</div>
