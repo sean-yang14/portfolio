@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
 	return (
-		<nav className='navbar h-[5vh] bg-base-100 container mx-auto border-b-2 border-gray-300'>
+		<nav className='navbar bg-base-100 container mx-auto pb-3 border-b-2 border-gray-300'>
 			<div className='navbar-start'>
 				<div className='dropdown'>
 					<label tabIndex={0} className='btn btn-ghost lg:hidden'>
@@ -27,17 +27,17 @@ function Navbar() {
 						className='menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 w-52'
 					>
 						<li>
-							<Link to='/' className='text-lg'>
+							<Link to='/' className='text-base'>
 								Home
 							</Link>
 						</li>
 						<li>
-							<Link to='/' className='text-lg'>
+							<Link to='/projects' className='text-base'>
 								Projects
 							</Link>
 						</li>
 						<li>
-							<Link to='/' className='text-lg'>
+							<Link to='/about' className='text-base'>
 								About
 							</Link>
 						</li>
@@ -55,25 +55,22 @@ function Navbar() {
 			</div>
 
 			<div className='navbar-center hidden lg:flex'>
-				<ul className='menu menu-horizontal px-1'>
+				<ul className='flex px-1'>
 					<li className='mr-2'>
-						<Link
-							to='/'
-							className='btn btn-ghost rounded-md text-lg font-normal'
-						>
+						<Link to='/' className='btn btn-ghost text-base font-normal'>
 							Home
 						</Link>
 					</li>
 					<li className='mr-2'>
-						<Link to='/' className='btn btn-ghost text-lg font-normal'>
+						<Link
+							to='/projects'
+							className='btn btn-ghost text-base font-normal'
+						>
 							Projects
 						</Link>
 					</li>
 					<li>
-						<Link
-							to='/'
-							className='btn btn-ghost rounded-md text-lg font-normal'
-						>
+						<Link to='/about' className='btn btn-ghost text-base font-normal'>
 							About
 						</Link>
 					</li>
@@ -81,12 +78,13 @@ function Navbar() {
 			</div>
 
 			<div className='navbar-end'>
-				<Link
-					to='/'
-					className='btn btn-ghost border-[1.5px] border-black rounded-md text-lg font-normal'
+				<a
+					href='https://drive.google.com/file/d/1XO-dKDy5ir-5N3lkY-_LzZYC2ZhOp62X/view?usp=sharing'
+					target='_blank'
+					className='btn btn-ghost border-[1.5px] border-black text-base font-normal'
 				>
 					Resume
-				</Link>
+				</a>
 			</div>
 		</nav>
 	);
