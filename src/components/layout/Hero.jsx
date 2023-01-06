@@ -43,15 +43,19 @@ function Hero() {
 						<div className='flex justify-center gap-x-8  mt-[-1rem] md:gap-x-6 lg:gap-x-16 lg:pr-6'>
 							<div className='w-40 h-20'>
 								<img
-									src='./uhg-logo.png'
+									src='./assets/uhg-logo.png'
 									alt='quartet health logo'
 									className='h-full w-full object-contain'
 								/>
 							</div>
-							<img src='./ey-logo.svg' alt='ey-logo' className='w-20 h-12' />
+							<img
+								src='./assets/ey-logo.svg'
+								alt='ey-logo'
+								className='w-20 h-12'
+							/>
 							<div className='w-28 h-20'>
 								<img
-									src='./quartet.png'
+									src='./assets/quartet.png'
 									alt='quartet health logo'
 									className='h-full w-full object-cover'
 								/>
@@ -61,20 +65,12 @@ function Hero() {
 							<h2 className='text-lg font-bold'>Developer Skill Highlights</h2>
 							<div className='grid grid-flow-col gap-4 justify-start mt-4 lg:gap-x-16'>
 								<img
-									src='./javascript.svg'
+									src='./assets/javascript.svg'
 									alt='javascript icon'
 									className='h-10'
 								/>
-								<img
-									src='./assets/react.svg'
-									alt='react icon'
-									className='h-10'
-								/>
-								<img
-									src='./public/assets/python.svg'
-									alt='python icon'
-									className='h-10'
-								/>
+								<img src='./react.svg' alt='react icon' className='h-10' />
+								<img src='./python.svg' alt='python icon' className='h-10' />
 							</div>
 						</div>
 					</div>
@@ -84,7 +80,7 @@ function Hero() {
 			{/* ______Profile Pic_____________________ */}
 			<div className='hidden lg:pt-8 lg:block lg:visible lg:row-span-5 lg:col-span-3'>
 				<img
-					src='./profile.png'
+					src='./assets/profile.png'
 					alt='profile pic'
 					className='h-full w-full object-cover'
 				/>
