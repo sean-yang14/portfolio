@@ -43,19 +43,15 @@ function Hero() {
 						<div className='flex justify-center gap-x-8  mt-[-1rem] md:gap-x-6 lg:gap-x-16 lg:pr-6'>
 							<div className='w-40 h-20'>
 								<img
-									src='./src/components/layout/assets/uhg-logo.png'
+									src='./uhg-logo.png'
 									alt='quartet health logo'
 									className='h-full w-full object-contain'
 								/>
 							</div>
-							<img
-								src='./src/components/layout/assets/ey-logo.svg'
-								alt='ey-logo'
-								className='w-20 h-12'
-							/>
+							<img src='./ey-logo.svg' alt='ey-logo' className='w-20 h-12' />
 							<div className='w-28 h-20'>
 								<img
-									src='./src/components/layout/assets/quartet.png'
+									src='./quartet.png'
 									alt='quartet health logo'
 									className='h-full w-full object-cover'
 								/>
@@ -65,20 +61,12 @@ function Hero() {
 							<h2 className='text-lg font-bold'>Developer Skill Highlights</h2>
 							<div className='grid grid-flow-col gap-4 justify-start mt-4 lg:gap-x-16'>
 								<img
-									src='./src/components/layout/assets/javascript.svg'
+									src='./javascript.svg'
 									alt='javascript icon'
 									className='h-10'
 								/>
-								<img
-									src='./src/components/layout/assets/react.svg'
-									alt='react icon'
-									className='h-10'
-								/>
-								<img
-									src='./src/components/layout/assets/python.svg'
-									alt='python icon'
-									className='h-10'
-								/>
+								<img src='./react.svg' alt='react icon' className='h-10' />
+								<img src='./python.svg' alt='python icon' className='h-10' />
 							</div>
 						</div>
 					</div>
@@ -88,7 +76,7 @@ function Hero() {
 			{/* ______Profile Pic_____________________ */}
 			<div className='hidden lg:pt-8 lg:block lg:visible lg:row-span-5 lg:col-span-3'>
 				<img
-					src='./src/components/layout/assets/profile.png'
+					src='./profile.png'
 					alt='profile pic'
 					className='h-full w-full object-cover'
 				/>

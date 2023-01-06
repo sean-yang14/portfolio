@@ -27,7 +27,7 @@ function About() {
 					the user focus and multi-team collaboration aspects of front-end
 					development. I bring a number of skills, from strategic problem
 					solving to project management, that will help your company in and
-					beyond a developer role
+					beyond a developer role.
 				</p>
 			</div>
 		</div>
