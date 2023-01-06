@@ -69,8 +69,16 @@ function Hero() {
 									alt='javascript icon'
 									className='h-10'
 								/>
-								<img src='./react.svg' alt='react icon' className='h-10' />
-								<img src='./python.svg' alt='python icon' className='h-10' />
+								<img
+									src='./public/assets/react.svg'
+									alt='react icon'
+									className='h-10'
+								/>
+								<img
+									src='./assets/python.svg'
+									alt='python icon'
+									className='h-10'
+								/>
 							</div>
 						</div>
 					</div>
@@ -80,7 +88,7 @@ function Hero() {
 			{/* ______Profile Pic_____________________ */}
 			<div className='hidden lg:pt-8 lg:block lg:visible lg:row-span-5 lg:col-span-3'>
 				<img
-					src='./assets/profile.png'
+					src='./profile.png'
 					alt='profile pic'
 					className='h-full w-full object-cover'
 				/>
