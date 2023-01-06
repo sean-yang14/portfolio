@@ -3,7 +3,7 @@ import { FaGithub } from 'react-icons/fa';
 
 function Project({ project }) {
 	return (
-		<div className='grid grid-cols-1 grid-rows-2 border-slate-200 border-[1px] rounded-lg shadow-xl mt-8 lg:h-[50vh] lg:min-h-fit lg:grid-cols-2 lg:grid-rows-1'>
+		<div className='grid grid-cols-1 grid-rows-2 border-slate-200 border-[1px] rounded-lg shadow-xl mt-8 lg:h-[60vh] lg:min-h-fit lg:grid-cols-2 lg:grid-rows-1'>
 			<div className='rounded-t-lg bg-stone-300 lg:rounded-t-none lg:rounded-l-lg'>
 				<video className='h-full w-full' controls>
 					<source src={project.video} type='video/mp4' />
