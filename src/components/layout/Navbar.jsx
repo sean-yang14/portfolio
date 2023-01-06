@@ -27,17 +27,17 @@ function Navbar() {
 						className='menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 w-52'
 					>
 						<li>
-							<Link to='/' className='text-base'>
+							<Link to='/' className='text-base active:bg-orange-600'>
 								Home
 							</Link>
 						</li>
 						<li>
-							<Link to='/projects' className='text-base'>
+							<Link to='/projects' className='text-base active:bg-orange-600'>
 								Projects
 							</Link>
 						</li>
 						<li>
-							<Link to='/about' className='text-base'>
+							<Link to='/about' className='text-base active:bg-orange-600'>
 								About
 							</Link>
 						</li>
@@ -79,7 +79,7 @@ function Navbar() {
 
 			<div className='navbar-end'>
 				<a
-					href='https://drive.google.com/file/d/1XO-dKDy5ir-5N3lkY-_LzZYC2ZhOp62X/view?usp=sharing'
+					href='https://drive.google.com/file/d/1LZkCBntWgSsM6P1Xe_5ibuQN5Bj-iGsW/view?usp=sharing'
 					target='_blank'
 					className='btn btn-ghost border-[1.5px] border-black text-base font-normal'
 				>

@@ -8,33 +8,31 @@ export const ProjectProvider = ({ children }) => {
 		projects: [
 			{
 				id: 1,
-				name: 'Project 1',
-				imageLink:
-					'../../components/layout/assets/eftakher-alam-i1VQZsU86ok-unsplash.jpg',
-				skillset: ['Python', 'Flask', 'Tailwind'],
+				name: 'Magazine Subscriptions Dashboard',
+				skillset: ['Python', 'Flask', 'MySQL', 'Tailwind'],
 				description:
-					'Search usernames from Github and view data on their profile',
-				githubLink: 'link',
+					'Application that allows registed users to post magazine subscriptions to a public dashboard. Also has an account page that is specific to the user and its data',
+				githubLink: 'https://github.com/sean-yang14/magazine-subscriptions',
+				video: './src/components/layout/assets/videos/flask_project.mp4',
 			},
 			{
 				id: 2,
-				name: 'Project 2',
-				imageLink:
-					'../../components/layout/assets/hal-gatewood-weRQAu9TA-A-unsplash.jpg',
-				skillset: ['Javascript', 'React', 'Tailwind'],
+				name: 'Dentist Compensation Form',
+				skillset: ['Javascript', 'React', 'CSS', 'JSON Server'],
 				description:
-					'Running tracker of favorite magazines built using Flask as the backend and local SQL database',
-				githubLink: 'link',
+					'Form application built to gather compensation statistics from dentists. JSON server acts as the backend, allowing the user to add posts via form submission, edit previous submissions and delete posts',
+				githubLink: 'https://github.com/sean-yang14/salary-form',
+				video: './src/components/layout/assets/videos/form_project.mp4',
 			},
 			{
 				id: 3,
-				name: 'Project 3',
-				imageLink:
-					'../../components/layout/assets/pankaj-patel-Ylk5n_nd9dA-unsplash.jpg',
+				name: 'Github User',
 				skillset: ['Javascript', 'React', 'Tailwind'],
 				description:
-					'Dentistsy lead capture website for recruiting services by providing data',
-				githubLink: 'link',
+					'Application enabling users to search and view Github profiles. Built using the github API',
+				githubLink: 'https://github.com/sean-yang14/github-user',
+				video:
+					'./src/components/layout/assets/videos/github_finder_project.mp4',
 			},
 		],
 	};
