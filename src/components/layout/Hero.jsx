@@ -65,8 +65,16 @@ function Hero() {
 									alt='javascript icon'
 									className='h-10'
 								/>
-								<img src='./react.svg' alt='react icon' className='h-10' />
-								<img src='./python.svg' alt='python icon' className='h-10' />
+								<img
+									src='./assets/react.svg'
+									alt='react icon'
+									className='h-10'
+								/>
+								<img
+									src='./public/assets/python.svg'
+									alt='python icon'
+									className='h-10'
+								/>
 							</div>
 						</div>
 					</div>
