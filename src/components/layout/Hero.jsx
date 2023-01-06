@@ -70,7 +70,7 @@ function Hero() {
 									className='h-10'
 								/>
 								<img
-									src='./public/assets/react.svg'
+									src='./assets/react.svg'
 									alt='react icon'
 									className='h-10'
 								/>
@@ -88,7 +88,7 @@ function Hero() {
 			{/* ______Profile Pic_____________________ */}
 			<div className='hidden lg:pt-8 lg:block lg:visible lg:row-span-5 lg:col-span-3'>
 				<img
-					src='./profile.png'
+					src='./assets/profile.png'
 					alt='profile pic'
 					className='h-full w-full object-cover'
 				/>

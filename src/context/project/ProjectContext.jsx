@@ -22,7 +22,7 @@ export const ProjectProvider = ({ children }) => {
 				description:
 					'Form application built to gather compensation statistics from dentists. JSON server acts as the backend, allowing the user to add posts via form submission, edit previous submissions and delete posts',
 				githubLink: 'https://github.com/sean-yang14/salary-form',
-				video: './public/assets/videos/form_project.mp4',
+				video: './assets/videos/form_project.mp4',
 			},
 			{
 				id: 3,
@@ -31,7 +31,7 @@ export const ProjectProvider = ({ children }) => {
 				description:
 					'Application enabling users to search and view Github profiles. Built using the github API',
 				githubLink: 'https://github.com/sean-yang14/github-user',
-				video: './github_finder_project.mp4',
+				video: './assets/videos/github_finder_project.mp4',
 			},
 		],
 	};
