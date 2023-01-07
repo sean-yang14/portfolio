@@ -39,7 +39,7 @@ function Hero() {
 						<p className='text-base lg:mt-2'>seanhyang1@gmail.com</p>
 					</div>
 					<div className='mt-4'>
-						<h2 className='text-lg font-bold'>Comany History</h2>
+						<h2 className='text-lg font-bold'>Company History</h2>
 						<div className='flex justify-center gap-x-8  mt-[-1rem] md:gap-x-6 lg:gap-x-16 lg:pr-6'>
 							<div className='w-40 h-20'>
 								<img
