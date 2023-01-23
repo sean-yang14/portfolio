@@ -79,7 +79,7 @@ function Navbar() {
 
 			<div className='navbar-end'>
 				<a
-					href='https://drive.google.com/file/d/1LZkCBntWgSsM6P1Xe_5ibuQN5Bj-iGsW/view?usp=sharing'
+					href='https://drive.google.com/file/d/11JJE3yhDG_rVuX4fdiibCeoLem-I2XsJ/view?usp=sharing'
 					target='_blank'
 					className='btn btn-ghost border-[1.5px] border-black text-base font-normal'
 				>
