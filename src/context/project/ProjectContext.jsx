@@ -40,7 +40,7 @@ export const ProjectProvider = ({ children }) => {
 				name: 'Scrub Network',
 				skillset: ['React', 'Next.js', 'Tailwind'],
 				description:
-					'Static website built for a hypothetical recruiting firm, focused on solving real problems dentists face when it comes hiring',
+					'Static website built for a hypothetical recruiting firm, focused on solving real problems practices face when hiring',
 				githubLink: null,
 				websiteLink: 'https://scrubnetwork.com',
 				video: './assets/videos/scrub_network.mp4',
