@@ -11,7 +11,7 @@ export const ProjectProvider = ({ children }) => {
 				name: 'Magazine Subscriptions Dashboard',
 				skillset: ['Python', 'Flask', 'MySQL', 'Tailwind'],
 				description:
-					'Application that allows registed users to post magazine subscriptions to a public dashboard. Also has an account page that is specific to the user and its data',
+					'Application that allows registered users to post magazine subscriptions to a public dashboard. Also has an account page that is specific to the user and its data',
 				githubLink: 'https://github.com/sean-yang14/magazine-subscriptions',
 				video: './assets/videos/flask_project.mp4',
 			},
@@ -22,6 +22,7 @@ export const ProjectProvider = ({ children }) => {
 				description:
 					'Form application built to gather compensation statistics from dentists. JSON server acts as the backend, allowing the user to add posts via form submission, edit previous submissions and delete posts',
 				githubLink: 'https://github.com/sean-yang14/salary-form',
+				websiteLink: null,
 				video: './assets/videos/form_project.mp4',
 			},
 			{
@@ -29,9 +30,20 @@ export const ProjectProvider = ({ children }) => {
 				name: 'Github User',
 				skillset: ['Javascript', 'React', 'Tailwind'],
 				description:
-					'Application enabling users to search and view Github profiles. Built using the github API',
+					'Application that enables users to search and view Github profiles. Built using the github API',
 				githubLink: 'https://github.com/sean-yang14/github-user',
+				websiteLink: null,
 				video: './assets/videos/github_finder_project.mp4',
+			},
+			{
+				id: 4,
+				name: 'Scrub Network',
+				skillset: ['React', 'Next.js', 'Tailwind'],
+				description:
+					'Static website built for a hypothetical recruiting firm, focused on solving real problems dentists face when it comes hiring',
+				githubLink: null,
+				websiteLink: 'https://scrubnetwork.com',
+				video: './assets/videos/scrub_network.mp4',
 			},
 		],
 	};

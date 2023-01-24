@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 function Project({ project }) {
 	return (
@@ -21,9 +21,15 @@ function Project({ project }) {
 						</div>
 					))}
 				</div>
-				<a href={project.githubLink} target='_blank'>
-					<FaGithub className='text-4xl cursor-pointer hover:fill-orange-600 mx-auto my-4' />
-				</a>
+				{project.githubLink ? (
+					<a href={project.githubLink} target='_blank'>
+						<FaGithub className='text-4xl cursor-pointer hover:fill-orange-600 mx-auto my-4' />
+					</a>
+				) : (
+					<a href={project.websiteLink} target='_blank'>
+						<FaExternalLinkAlt className='text-3xl cursor-pointer hover:fill-orange-600 mx-auto mb-4 mt-6' />
+					</a>
+				)}
 				<h2 className='text-lg font-bold mt-8 text-center lg:text-xl'>
 					Description
 				</h2>
